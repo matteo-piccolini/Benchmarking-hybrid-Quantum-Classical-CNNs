@@ -1,0 +1,1160 @@
+[
+  {
+    "timestamp": "2026-02-15 10:00:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 80,
+      "learning_rate": 0.001,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.738,
+      "precision": 0.7414,
+      "recall": 0.738,
+      "f1": 0.7375
+    },
+    "training_time_seconds": 660.38
+  },
+  {
+    "timestamp": "2026-02-15 10:15:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 80,
+      "learning_rate": 0.001,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.362,
+      "precision": 0.3448,
+      "recall": 0.362,
+      "f1": 0.3157
+    },
+    "training_time_seconds": 598.02
+  },
+  {
+    "timestamp": "2026-02-15 10:30:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 100,
+      "learning_rate": 0.001,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.755,
+      "precision": 0.7579,
+      "recall": 0.755,
+      "f1": 0.7553
+    },
+    "training_time_seconds": 832.8
+  },
+  {
+    "timestamp": "2026-02-15 10:45:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 100,
+      "learning_rate": 0.001,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.424,
+      "precision": 0.4124,
+      "recall": 0.424,
+      "f1": 0.3872
+    },
+    "training_time_seconds": 765.18
+  },
+  {
+    "timestamp": "2026-02-15 11:00:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 120,
+      "learning_rate": 0.001,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.751,
+      "precision": 0.7549,
+      "recall": 0.751,
+      "f1": 0.7517
+    },
+    "training_time_seconds": 988.07
+  },
+  {
+    "timestamp": "2026-02-15 11:15:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 120,
+      "learning_rate": 0.001,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.399,
+      "precision": 0.4082,
+      "recall": 0.399,
+      "f1": 0.3895
+    },
+    "training_time_seconds": 908.8
+  },
+  {
+    "timestamp": "2026-02-15 11:30:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 80,
+      "learning_rate": 0.0015,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.726,
+      "precision": 0.7298,
+      "recall": 0.726,
+      "f1": 0.7246
+    },
+    "training_time_seconds": 661.41
+  },
+  {
+    "timestamp": "2026-02-15 11:45:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 80,
+      "learning_rate": 0.0015,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.446,
+      "precision": 0.4261,
+      "recall": 0.446,
+      "f1": 0.4253
+    },
+    "training_time_seconds": 614.76
+  },
+  {
+    "timestamp": "2026-02-15 12:00:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 100,
+      "learning_rate": 0.0015,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.746,
+      "precision": 0.7507,
+      "recall": 0.746,
+      "f1": 0.7475
+    },
+    "training_time_seconds": 799.79
+  },
+  {
+    "timestamp": "2026-02-15 12:15:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 100,
+      "learning_rate": 0.0015,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.468,
+      "precision": 0.4456,
+      "recall": 0.468,
+      "f1": 0.4456
+    },
+    "training_time_seconds": 785.13
+  },
+  {
+    "timestamp": "2026-02-15 12:30:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 120,
+      "learning_rate": 0.0015,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.748,
+      "precision": 0.7483,
+      "recall": 0.748,
+      "f1": 0.7474
+    },
+    "training_time_seconds": 982.89
+  },
+  {
+    "timestamp": "2026-02-15 12:45:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 120,
+      "learning_rate": 0.0015,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.483,
+      "precision": 0.5048,
+      "recall": 0.483,
+      "f1": 0.4737
+    },
+    "training_time_seconds": 913.24
+  },
+  {
+    "timestamp": "2026-02-15 13:00:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 80,
+      "learning_rate": 0.002,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.747,
+      "precision": 0.7515,
+      "recall": 0.747,
+      "f1": 0.7483
+    },
+    "training_time_seconds": 653.49
+  },
+  {
+    "timestamp": "2026-02-15 13:15:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 80,
+      "learning_rate": 0.002,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.458,
+      "precision": 0.4509,
+      "recall": 0.458,
+      "f1": 0.4442
+    },
+    "training_time_seconds": 609.79
+  },
+  {
+    "timestamp": "2026-02-15 13:30:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 100,
+      "learning_rate": 0.002,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.758,
+      "precision": 0.7676,
+      "recall": 0.758,
+      "f1": 0.7608
+    },
+    "training_time_seconds": 841.28
+  },
+  {
+    "timestamp": "2026-02-15 13:45:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 100,
+      "learning_rate": 0.002,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.564,
+      "precision": 0.5669,
+      "recall": 0.564,
+      "f1": 0.5639
+    },
+    "training_time_seconds": 770.92
+  },
+  {
+    "timestamp": "2026-02-15 14:00:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 120,
+      "learning_rate": 0.002,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.722,
+      "precision": 0.7207,
+      "recall": 0.722,
+      "f1": 0.7206
+    },
+    "training_time_seconds": 965.37
+  },
+  {
+    "timestamp": "2026-02-15 14:15:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 120,
+      "learning_rate": 0.002,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.552,
+      "precision": 0.5503,
+      "recall": 0.552,
+      "f1": 0.544
+    },
+    "training_time_seconds": 947.34
+  },
+  {
+    "timestamp": "2026-02-15 14:30:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 80,
+      "learning_rate": 0.0025,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.651,
+      "precision": 0.6529,
+      "recall": 0.651,
+      "f1": 0.6504
+    },
+    "training_time_seconds": 637.09
+  },
+  {
+    "timestamp": "2026-02-15 14:45:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 80,
+      "learning_rate": 0.0025,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.46,
+      "precision": 0.4734,
+      "recall": 0.46,
+      "f1": 0.4443
+    },
+    "training_time_seconds": 607.35
+  },
+  {
+    "timestamp": "2026-02-15 15:00:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 100,
+      "learning_rate": 0.0025,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.701,
+      "precision": 0.7026,
+      "recall": 0.701,
+      "f1": 0.7016
+    },
+    "training_time_seconds": 815.22
+  },
+  {
+    "timestamp": "2026-02-15 15:15:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 100,
+      "learning_rate": 0.0025,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.536,
+      "precision": 0.5468,
+      "recall": 0.536,
+      "f1": 0.526
+    },
+    "training_time_seconds": 760.47
+  },
+  {
+    "timestamp": "2026-02-15 15:30:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 120,
+      "learning_rate": 0.0025,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.71,
+      "precision": 0.7191,
+      "recall": 0.71,
+      "f1": 0.713
+    },
+    "training_time_seconds": 990.87
+  },
+  {
+    "timestamp": "2026-02-15 15:45:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 120,
+      "learning_rate": 0.0025,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.594,
+      "precision": 0.5883,
+      "recall": 0.594,
+      "f1": 0.5894
+    },
+    "training_time_seconds": 930.91
+  },
+  {
+    "timestamp": "2026-02-15 16:00:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 80,
+      "learning_rate": 0.003,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.701,
+      "precision": 0.7013,
+      "recall": 0.701,
+      "f1": 0.6988
+    },
+    "training_time_seconds": 648.6
+  },
+  {
+    "timestamp": "2026-02-15 16:15:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 80,
+      "learning_rate": 0.003,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.544,
+      "precision": 0.5391,
+      "recall": 0.544,
+      "f1": 0.5398
+    },
+    "training_time_seconds": 609.33
+  },
+  {
+    "timestamp": "2026-02-15 16:30:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 100,
+      "learning_rate": 0.003,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.491,
+      "precision": 0.4338,
+      "recall": 0.491,
+      "f1": 0.4308
+    },
+    "training_time_seconds": 810.77
+  },
+  {
+    "timestamp": "2026-02-15 16:45:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 100,
+      "learning_rate": 0.003,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.557,
+      "precision": 0.5431,
+      "recall": 0.557,
+      "f1": 0.5438
+    },
+    "training_time_seconds": 757.93
+  },
+  {
+    "timestamp": "2026-02-15 17:00:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 120,
+      "learning_rate": 0.003,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.686,
+      "precision": 0.704,
+      "recall": 0.686,
+      "f1": 0.6882
+    },
+    "training_time_seconds": 993.16
+  },
+  {
+    "timestamp": "2026-02-15 17:15:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 120,
+      "learning_rate": 0.003,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.582,
+      "precision": 0.5629,
+      "recall": 0.582,
+      "f1": 0.5593
+    },
+    "training_time_seconds": 920.4
+  },
+  {
+    "timestamp": "2026-02-15 17:30:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 80,
+      "learning_rate": 0.004,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.681,
+      "precision": 0.6915,
+      "recall": 0.681,
+      "f1": 0.6844
+    },
+    "training_time_seconds": 650.6
+  },
+  {
+    "timestamp": "2026-02-15 17:45:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 80,
+      "learning_rate": 0.004,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.575,
+      "precision": 0.5688,
+      "recall": 0.575,
+      "f1": 0.5644
+    },
+    "training_time_seconds": 614.82
+  },
+  {
+    "timestamp": "2026-02-15 18:00:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 100,
+      "learning_rate": 0.004,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.438,
+      "precision": 0.4687,
+      "recall": 0.438,
+      "f1": 0.3927
+    },
+    "training_time_seconds": 832.62
+  },
+  {
+    "timestamp": "2026-02-15 18:15:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 100,
+      "learning_rate": 0.004,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.589,
+      "precision": 0.5924,
+      "recall": 0.589,
+      "f1": 0.5848
+    },
+    "training_time_seconds": 761.77
+  },
+  {
+    "timestamp": "2026-02-15 18:30:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 120,
+      "learning_rate": 0.004,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.721,
+      "precision": 0.7314,
+      "recall": 0.721,
+      "f1": 0.7239
+    },
+    "training_time_seconds": 989.12
+  },
+  {
+    "timestamp": "2026-02-15 18:45:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 120,
+      "learning_rate": 0.004,
+      "optimizer": "SGD",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.619,
+      "precision": 0.6234,
+      "recall": 0.619,
+      "f1": 0.6168
+    },
+    "training_time_seconds": 925.88
+  },
+  {
+    "timestamp": "2026-02-15 19:00:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": true,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 10,
+      "learning_rate": 0.001,
+      "optimizer": "Adam",
+      "batch_size": 1,
+      "images_per_class": 50,
+      "num_qubits": 4,
+      "feature_map": "ZZFeatureMap",
+      "ansatz": "EfficientSU2",
+      "execution_mode": "exact_simulator"
+    },
+    "metrics": {
+      "accuracy": 0.11,
+      "precision": 0.0604,
+      "recall": 0.11,
+      "f1": 0.0753
+    },
+    "training_time_seconds": 5818.08
+  },
+  {
+    "timestamp": "2026-02-15 20:30:00",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": true,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 10,
+      "learning_rate": 0.001,
+      "optimizer": "Adam",
+      "batch_size": 1,
+      "images_per_class": 50,
+      "num_qubits": 4,
+      "feature_map": "ZZFeatureMap",
+      "ansatz": "EfficientSU2",
+      "execution_mode": "noisy_simulator"
+    },
+    "metrics": {
+      "accuracy": 0.17,
+      "precision": 0.1978,
+      "recall": 0.17,
+      "f1": 0.1433
+    },
+    "training_time_seconds": 5846.54
+  },
+  {
+    "timestamp": "2026-02-15 16:39:13",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cuda",
+      "num_epochs": 100,
+      "learning_rate": 0.002,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.728,
+      "loss": 1.0369995692197014,
+      "precision": 0.7330670876399031,
+      "recall": 0.728,
+      "f1": 0.7273882449000983
+    },
+    "training_time_seconds": 412.8857374191284
+  },
+  {
+    "timestamp": "2026-02-15 16:46:05",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cuda",
+      "num_epochs": 100,
+      "learning_rate": 0.0025,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.251,
+      "loss": 1.7775653144892525,
+      "precision": 0.16980291693185473,
+      "recall": 0.251,
+      "f1": 0.15394252387385085
+    },
+    "training_time_seconds": 408.54453015327454
+  },
+  {
+    "timestamp": "2026-02-15 16:52:59",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cuda",
+      "num_epochs": 100,
+      "learning_rate": 0.0015,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.7490000000000001,
+      "loss": 0.9851943736567217,
+      "precision": 0.7542180745460493,
+      "recall": 0.749,
+      "f1": 0.7503025996355398
+    },
+    "training_time_seconds": 411.7055175304413
+  },
+  {
+    "timestamp": "2026-02-15 17:01:06",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cuda",
+      "num_epochs": 120,
+      "learning_rate": 0.002,
+      "optimizer": "Adam",
+      "batch_size": 30,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.7140000000000001,
+      "loss": 1.015993892269976,
+      "precision": 0.7207246113316369,
+      "recall": 0.714,
+      "f1": 0.7159431205068764
+    },
+    "training_time_seconds": 484.031546831131
+  },
+  {
+    "timestamp": "2026-02-15 17:07:40",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cuda",
+      "num_epochs": 100,
+      "learning_rate": 0.002,
+      "optimizer": "Adam",
+      "batch_size": 40,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.752,
+      "loss": 0.91390658557415,
+      "precision": 0.7540943141877314,
+      "recall": 0.752,
+      "f1": 0.7520586926122239
+    },
+    "training_time_seconds": 390.8001797199249
+  },
+  {
+    "timestamp": "2026-02-15 22:43:34",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 100,
+      "learning_rate": 0.002,
+      "optimizer": "LBFGS",
+      "batch_size": 500,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.098,
+      "loss": 2.359036922454834,
+      "precision": 0.020487948265726044,
+      "recall": 0.098,
+      "f1": 0.022411380597014925
+    },
+    "training_time_seconds": 53.7186393737793
+  },
+  {
+    "timestamp": "2026-02-15 23:03:48",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 90,
+      "learning_rate": 0.0022,
+      "optimizer": "Adam",
+      "batch_size": 35,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.682,
+      "loss": 1.0909373349156872,
+      "precision": 0.6892889285403704,
+      "recall": 0.682,
+      "f1": 0.6812047508717978
+    },
+    "training_time_seconds": 752.3495955467224
+  },
+  {
+    "timestamp": "2026-02-15 23:38:23",
+    "configuration": {
+      "model_name": "QuantumHybridNet",
+      "employ_quantum": false,
+      "classical_device": "GPU",
+      "actual_device": "cpu",
+      "num_epochs": 120,
+      "learning_rate": 0.0023,
+      "optimizer": "Adam",
+      "batch_size": 35,
+      "images_per_class": 500,
+      "num_qubits": "N/A",
+      "feature_map": "N/A",
+      "ansatz": "N/A",
+      "execution_mode": "N/A"
+    },
+    "metrics": {
+      "accuracy": 0.741,
+      "loss": 1.0371190864464332,
+      "precision": 0.7522754630790479,
+      "recall": 0.741,
+      "f1": 0.7445418068164149
+    },
+    "training_time_seconds": 1108.9899973869324
+  }
+]
