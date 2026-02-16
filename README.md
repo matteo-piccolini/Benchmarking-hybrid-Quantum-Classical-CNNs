@@ -17,7 +17,7 @@ This project provides a **modular benchmarking infrastructure** to systematicall
 ### 🔧 Flexibility & Modularity
 - **Pluggable Architectures**: Easily add your own model classes - the provided hybrid CNN is just an example
 - **Configurable Quantum Layer**: Swap feature maps, ansätze, and execution modes without code changes
-- **Multiple Optimizers**: Adam, SGD, LBFGS with automatic parameter handling
+- **Any PyTorch Optimizer**: Supports all torch.optim optimizers (Adam, SGD, LBFGS, RMSprop, AdamW, etc.) with automatic parameter handling
 - **Simple Configuration**: Just modify the CONFIG dictionary - everything else is automatic
 
 ### 📊 Comprehensive Benchmarking
@@ -91,7 +91,7 @@ CONFIG = {
 # Data loading, training, evaluation, and results saving are automatic
 ```
 
-Want to try a different optimizer? Just change `"optimizer": "SGD"` and `"learning_rate": 0.01`. Want quantum? Set `"employ_quantum_layer": True`. The framework handles the rest.
+Want to try a different optimizer? Just change `"optimizer": "RMSprop"` and `"learning_rate": 0.001`. Want quantum? Set `"employ_quantum_layer": True`. The framework handles the rest.
 
 ### Visualize Results
 ```python
@@ -116,7 +116,7 @@ class YourCustomNet(nn.Module):
     def __init__(self, config, qnn=None, n_classes=10):
         super().__init__()
         # Your architecture here
-
+        
     def forward(self, x):
         # Your forward pass
         return x
@@ -146,27 +146,40 @@ CONFIG["quantum_NN"] = {
 }
 ```
 
-### Optimizer-Specific Configurations
+### Optimizer Configurations
 
-#### Adam / SGD
+The framework supports **any PyTorch optimizer** from `torch.optim` (Adam, SGD, RMSprop, AdamW, Adagrad, Adadelta, LBFGS, etc.).
+
+#### First-Order Optimizers (Adam, SGD, RMSprop, AdamW, etc.)
 ```python
 "optimization": {
-    "optimizer": "Adam",
-    "learning_rate": 0.001,  # Typical: 0.001-0.01
+    "optimizer": "Adam",           # Or "SGD", "RMSprop", "AdamW", etc.
+    "learning_rate": 0.001,        # Typical range: 0.0001 - 0.01
     "num_epochs": 100
 }
 ```
 
-#### LBFGS (Second-Order)
+**Common choices:**
+- **Adam**: General purpose, typically LR = 0.001-0.002
+- **SGD**: Simple and effective, typically LR = 0.01-0.1
+- **RMSprop**: Good for RNNs, typically LR = 0.001
+- **AdamW**: Adam with weight decay, typically LR = 0.001
+
+#### Second-Order Optimizers (LBFGS)
 ```python
 "optimization": {
     "optimizer": "LBFGS",
-    "learning_rate": 1.0,    # Higher LR: 0.1-1.0
-    "num_epochs": 50         # Becomes max_iter (auto-set to 1 epoch)
+    "learning_rate": 1.0,          # Higher LR: 0.1-1.0
+    "num_epochs": 50               # Becomes max_iter (auto-set to 1 epoch)
 }
 # Note: Use larger batch_size (≈ half dataset) for LBFGS
 CONFIG["batch_size"] = 2500
 ```
+
+**LBFGS specifics:**
+- Automatically sets num_epochs to 1 (uses num_epochs as max_iter internally)
+- Requires larger batch sizes for stability
+- Higher learning rates than first-order optimizers
 
 ## 📊 Results Management
 
@@ -241,7 +254,7 @@ CONFIG = {
     "images_per_class": 500,             # Samples per class
     "employ_quantum_layer": False,       # Enable quantum path
     "optimization": {
-        "optimizer": "Adam",              # "Adam", "SGD", "LBFGS"
+        "optimizer": "Adam",              # Any torch.optim optimizer
         "learning_rate": 0.002,
         "num_epochs": 100
     }
